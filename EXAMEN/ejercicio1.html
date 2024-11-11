@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen UT 3</title>
+    <link rel="stylesheet" href="css/estiloej1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="ejercicio1.html">Ejercicio 1</a></li>
+          <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="datos.php" method="post">
+      <h2>ANEXO VII</h2>
+      <h3>
+        COMPROMISO DE ACEPTACIÓN DE CONDICIONES DE REALIZACIÓN DE LA FASE DE
+        FORMACIÓN DE EMPRESA U ORGANISMO EQUIPARADO
+      </h3>
+      <p>
+        El alumno/a <input type="text" name="nombre_apell" id="nombre_apell" />,
+        con DNI<input type="text" name="dni" id="dni" />, matriculado/a en el
+        Ciclo Formativo/Curso de Especialización de
+        <select name="curso" id="curso">
+          <option value="dam">
+            Desarrollo de aplicaciones multiplataforma
+          </option>
+          <option value="daw">Desarrollo de aplicaciones web</option>
+          <option value="asir">
+            Administración de sistemas microinformáticos en red
+          </option>
+          <option value="ai-bigdata">
+            Curso de especialización de inteligencia artificial y big data
+          </option>
+        </select>
+        del centro educativo IES ÁGORA, se compromete y acepta:
+      </p>
+      <ul>
+        <li>
+          Cumplir con el calendario y horario formativo establecido en la
+          empresa u organismo equiparado.
+        </li>
+        <li>
+          Cumplir con las normas establecidas por la empresa u organismo
+          equiparado, especialmente las referidas a la prevención de riesgos
+          laborales.
+        </li>
+        <li>
+          Aplicar y cumplir adecuadamente con las tareas formativas que se le
+          encomienden en la empresa u organismo equiparado, de acuerdo con el
+          plan de formación y la programación establecida, respetando el régimen
+          interno de funcionamiento de esta.
+        </li>
+        <li>
+          Respetar y cuidar los medios materiales que se pongan a su
+          disposición.
+        </li>
+        <li>
+          Comunicar a la empresa u organismo equiparado con la antelación que
+          sea posible cualquier ausencia.
+        </li>
+        <li>
+          Respetar la máxima confidencialidad durante su periodo de formación en
+          la empresa u organismo equiparado y a la finalización de esta. Además,
+          no se permite reproducir o almacenar datos de la empresa u organismo
+          equiparado, ni su transmisión, cualquiera que sea el medio utilizado,
+          sin permiso expreso del tutor o tutora de la empresa u organismo
+          equiparado.
+        </li>
+        <li>
+          Comunicar aquellas situaciones o estados de salud tales como
+          patologías conocidas, periodos de gestación o lactancia, entre otros,
+          para que puedan ser tenidos en cuenta en las actividades a desarrollar
+          en la estancia formativa en la empresa.
+        </li>
+        <li>
+          Otras acordadas con la empresa u organismo equiparado e incorporadas
+          en el presente convenio.
+        </li>
+      </ul>
+      En
+      <input
+        type="text"
+        id="lugar"
+        name="lugar"
+        placeholder="Ciudad o lugar"
+      />, a
+      <input
+        type="number"
+        id="dia"
+        name="dia"
+        min="1"
+        max="31"
+        placeholder="Día"
+      />
+      de <input type="text" id="mes" name="mes" placeholder="Mes" /> de
+      <input
+        type="number"
+        id="anio"
+        name="anio"
+        value="2024"
+        min="2020"
+        max="2030"
+      /><br />
+      Fdo.:
+      <input
+        type="text"
+        id="firma"
+        name="firma"
+        placeholder="Nombre y Apellido"
+      /><br /><br />
+      <input class="boton" type="submit" value="Enviar" />
+    </form>
+    <footer>
+      <p>Diseño Interfaces Web - Lorena Granado García</p>
+      <p>Copyright &copy; 2024</p>
+    </footer>
+  </body>
+</html>

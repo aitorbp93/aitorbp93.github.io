@@ -1,0 +1,77 @@
+/*Aitor Bartolomé Puertas*/
+
+
+@import
+url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100unpperdsanddisplay=swap');
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #0b0a0a;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; }
+   nav a:hover {
+    text-decoration: underline; 
+    color: #a9065d;}
+   
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 40px;
+  
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+form{
+  
+        width: 50%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+input, select, option {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+  
+}
+footer {
+   margin-left: 30%;
+   margin-right: 30%;
+
+  background-color: #333;
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.boton{
+    background-color: #4CAF50;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    box-sizing: border-box;
+  
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
