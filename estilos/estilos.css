@@ -281,3 +281,21 @@ footer {
     }
 }
 
+.history {
+    padding: 40px 20px;
+    background-color: #e7e0d4;
+    text-align: center;
+}
+
+.history h2 {
+    color: #4a4e69;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.history p {
+    color: #333;
+    margin: 10px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
